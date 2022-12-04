@@ -3,7 +3,7 @@ const app = express();
 var cors = require('cors');
 
 app.use(cors());
-const server = app. listen(3001,()=> {
+const server = app. listen(3000,()=> {
     console.log('Start Server : localhost:3001');
 });
 
