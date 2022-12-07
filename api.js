@@ -147,6 +147,156 @@ app.get('/api/carnumber/:type', async(req,res) => {
         ];
         res.send(data);
     }
+    else if(type == '2222'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"없음"},
+            {name:"상대 차 피해", state:"1회"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"없음"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '1818'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"없음"},
+            {name:"상대 차 피해", state:"없음"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"없음"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '8563'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"4회"},
+            {name:"상대 차 피해", state:"2회"},
+            {name:"차량 번호 변경", state:"1회"},
+            {name:"소유자 변경", state:"4회"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"있음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '7853'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"없음"},
+            {name:"상대 차 피해", state:"없음"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"없음"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '0257'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"없음"},
+            {name:"상대 차 피해", state:"없음"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"없음"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '0112'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"1회"},
+            {name:"상대 차 피해", state:"없음"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"1회"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '7280'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"2회"},
+            {name:"상대 차 피해", state:"1회"},
+            {name:"차량 번호 변경", state:"0회"},
+            {name:"소유자 변경", state:"5회"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '3040'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"1회"},
+            {name:"상대 차 피해", state:"1회"},
+            {name:"차량 번호 변경", state:"2회"},
+            {name:"소유자 변경", state:"7회"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '8901'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"4회"},
+            {name:"상대 차 피해", state:"1회"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"4회"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
+    else if(type == '5525'){
+        let data = [
+            {name:"전손 보험 사고", state:"0회"},
+            {name:"도난 보험 사고", state:"0회"},
+            {name:"침수 보험 사고", state:"0회"},
+            {name:"내 차 피해", state:"없음"},
+            {name:"상대 차 피해", state:"없음"},
+            {name:"차량 번호 변경", state:"없음"},
+            {name:"소유자 변경", state:"없음"},
+            {name:"대여 용도 사용 이력", state:"없음"},
+            {name:"영업 용도 사용 이력", state:"없음"},
+            {name:"관용 용도 사용 이력", state:"없음"}
+        ];
+        res.send(data);
+    }
     else {
         res.send('Type is not correct.');
     }
